@@ -1,0 +1,357 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+div.main-menu {
+  background-color: #333;
+  height: 2.25rem;
+  display: flex;
+}
+
+div.first {
+  width: 2.5rem;
+  height: 2.25rem;
+  background-color: #333;
+  position: relative;
+  left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+div.second {
+  width: 2.5rem;
+  height: 2.25rem;
+  background-color: #333;
+  position: relative;
+  left: 249px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+div.third {
+  width: 5rem;
+  height: 2.25rem;
+  background-color: #333;
+  position: relative;
+  left: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+div.fourth {
+  width: 5rem;
+  height: 2.25rem;
+  background-color: #333;
+  position: relative;
+  left: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid gray;
+}
+
+div.fifth {
+  width: 5rem;
+  height: 2.25rem;
+  background-color: #333;
+  position: relative;
+  left: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid gray;
+}
+
+.ENG {
+  color: white;
+  font-size: 0.5rem;
+}
+
+.USD {
+  color: white;
+  font-size: 0.5rem;
+}
+
+.MY_ACCOUNT {
+  color: white;
+  font-size: 0.5rem;
+}
+
+.LOGIN {
+  color: white;
+  font-size: 0.5rem;
+}
+
+.CART {
+  width: 100%;
+  height: 100%;
+  /* max-width: 100%;
+    max-height: 100%; */
+  object-fit: contain;
+}
+
+div.second-menu {
+  display: flex;
+  height: 4.5rem;
+  /* background-color: antiquewhite; */
+}
+div.num-1 {
+  width: 100px;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SHOPPPIE {
+  color: red;
+}
+span {
+  color: black;
+}
+
+div.num-2 {
+  width: 70px;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 300px;
+}
+
+.HOME {
+  font-size: 0.5rem;
+}
+
+div.num-3 {
+  width: 70px;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 300px;
+}
+.WOMEN {
+  font-size: 0.5rem;
+}
+
+div.num-4 {
+  width: 70px;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 300px;
+}
+
+div.num-5 {
+  width: 70px;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 300px;
+}
+
+div.num-6 {
+  width: 70px;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 300px;
+}
+
+div.num-7 {
+  width: 70px;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 300px;
+}
+
+div.num-8 {
+  width: 70px;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 300px;
+}
+
+div.num-9 {
+  width: 200px;
+  /* height:15px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 350px;
+  /* border: 1px solid black; */
+}
+.ACCESSORIES {
+  font-size: 0.5rem;
+}
+
+.BLOG {
+  font-size: 0.5rem;
+}
+
+.SHOP {
+  font-size: 0.5rem;
+}
+
+.PAGES {
+  font-size: 0.5rem;
+}
+
+.CONTACT {
+  font-size: 0.5rem;
+}
+
+.search {
+  display: inline;
+  width: 80%;
+  /* border-right: none; */
+}
+.num-10 {
+  width: 20%;
+  height: 15%;
+  /* background-color: aliceblue; */
+  background-image: url("../images/download-search-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  right: 20px;
+}
+
+div.part-3 {
+  height: 440px; /* set the height of the container */
+  background-image: url("../images/Capture6-removebg-preview.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  flex-direction: column;
+  position: relative;
+}
+
+.text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.prev-next {
+  align-self: flex-end;
+  position: absolute;
+  bottom: 10px;
+  color: whitesmoke;
+  margin-right: 30px;
+}
+
+.moto {
+  color: white;
+  font-size: 28px;
+  margin-top: 0px;
+}
+
+.moto-2 {
+  color: white;
+  font-size: 50px;
+}
+
+.moto-3 {
+  color: white;
+  font-size: 12px;
+}
+
+.SHOP-NOW {
+  border: 2px solid #303030;
+  border-radius: 0px;
+  padding: 3px 5px;
+  background-color: #303030;
+  color: white;
+  font-size: 10px;
+  word-spacing: 2px;
+  width: 15%;
+}
+
+div.fourth-part {
+  background-color: beige;
+  height: 100px;
+  display: flex;
+}
+
+div.box-1 {
+  height: 100%;
+  width: 317.1675px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+.free-shipping {
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.product {
+  color: whitesmoke;
+  font-size: 8px;
+  position: relative;
+  top: 20px;
+  right: 112px;
+}
+
+div.box-2 {
+  height: 100%;
+  width: 317.1675px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+div.box-3 {
+  height: 100%;
+  width: 317.1675px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+div.box-4 {
+  height: 100%;
+  width: 317.1675px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
